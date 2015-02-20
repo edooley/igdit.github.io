@@ -1,16 +1,772 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Title of the document</title>
-<link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400' rel='stylesheet' type='text/css'>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ignition Digital</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/igdi.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    
 </head>
 
-<body style="background:url(bg.jpg)">
-<div style="margin-top:70px;font-size:200px;text-align:center;font-family:Raleway;font-weight:100;color:#fff;text-shadow:0 0 50px #000">
-Your<br>
-<span style="font-weight:300">BIG</span><br>
-Idea
-</div>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#process">Our Process</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Work</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Make your next idea</div>
+                <div class="intro-heading" id="header-sayings"></div>
+                <a href="#services" class="page-scroll btn btn-xl main-btn">Show Me How...</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">Ignition Digital offers the complete package for your digital needs: a website, a mobile app, a database, a logo—anything really!</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="service-col col-sm-6 col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Mobile Apps</h4>
+                    <p class="text-muted">Need a custom iPhone/iPad, Android, or Windows Phone app? We specialize in native and HTML5-based mobile application development.</p>
+                </div>
+                <div class="service-col col-sm-6 col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Websites & Web Apps</h4>
+                    <p class="text-muted">Be it a simple presence page or a full-blown web application, we'll design your next web-based solution from the ground up using the latest technologies.</p>
+                </div>
+                <div class="service-col col-sm-6 col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Email & E-Commerce</h4>
+                    <p class="text-muted">Need a custom email address for your domain? How about e-commerce support, a blog, or a newsletter signup? Yep, we've got you covered.</p>
+                </div>
+                <div class="service-col col-sm-6 col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Custom Solutions & Consultancy</h4>
+                    <p class="text-muted">Ignition Digital prides itself on its unique method of tackling real-world problems. Let us help you with your next project or improve your internal workflow in ways you didn't know you needed.</p>
+                </div>
+                <div class="service-col col-sm-6 col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Database, Networking, Infrastructure</h4>
+                    <p class="text-muted">Our services are not limited to software. We will happily meet your hardware needs with custom networking solutions, database setup, optimization & management, and more.</p>
+                </div>
+                <div class="service-col col-sm-6 col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-camera-retro fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Media, Design, Promos</h4>
+                    <p class="text-muted">Our design team is ready and willing to revamp your existing site, or brand your next start-up from the ground-up. We design custom logos, business cards, and produce promo videos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Process Section -->
+    <section id="process">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Process</h2>
+                    <h3 class="section-subheading text-muted">We take a unique approach to making you happy.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Getting To Know You</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">First things first. Maybe you think it's obvious. Maybe creepy. But before anything else, we think it's important to get to know you, your ambitions, and your goals to establish an actual relationship before breaking ground on your next "Big Idea."</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Laying the Groundwork</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Honestly, we think that coding is one of the least significant things we do around here. Careful planning, designing a solid infrastructure, and good communication are all crucial before writing the first lick of code.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Transparent, Iterative Execution</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Transparency is fundamental, and you have every right to know what we're doing behind the curtain. In fact, there is no curtain. We'll constantly re-prioritize as your needs change, and deliver functional pieces of your product in 1-2 week iterations.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Ship, Rinse, Repeat</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">In case you didn't already know, software is never <i>really</i> &nbsp;finished. Adding new features, discovering bugs, and providing technical support all play in to the mix. Like we said, maintaining a lasting relationship is key!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <a class="page-scroll" href="#contact">
+                            <div class="timeline-image">
+                              <h4>Ready?
+                                <br>Let's Get
+                                <br>Started!
+                              </h4>
+                            </div>
+                          </a>                        
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Work</h2>
+                    <h3 class="section-subheading text-muted">The best way to illustrate the breadth of our services is to show you a few of our happy customers.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModalFitz" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/fitz.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Fitz-Thors Engineering</h4>
+                        <p class="text-muted">Responsive Website & CMS</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModalGettMe" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/gettme.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Gett.Me</h4>
+                        <p class="text-muted">Independent Startup</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModalCatholify" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/catholify.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Catholify</h4>
+                        <p class="text-muted">Social Media Mobile App</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModalSarahKroger" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/sarahkroger.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Sarah Kroger</h4>
+                        <p class="text-muted">Singer/Songwriter Website</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModalNtti" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/ntti.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>National True-Test Inc.</h4>
+                        <p class="text-muted">Industrial Mobile App</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModalOls" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/ols.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Our Lady of Sorrows</h4>
+                        <p class="text-muted">Responsive Website & CMS</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModalEppp" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/eppp.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Care Provider Portal</h4>
+                        <p class="text-muted">Timecard & Paperwork System</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModalSae" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/sae.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>SAE Motorsports</h4>
+                        <p class="text-muted">Realtime Scoring System</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModalStJohn" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/stjohn.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>St. John the Baptist Church</h4>
+                        <p class="text-muted">Campus Network Installation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">We love getting to know you, so here's a bit about us!</h3>
+                </div>
+            </div>
+            <div class="row"><div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/eric.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Eric Dooley</h4>
+                        <p class="text-muted">Development Lead, Founder/CEO</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/mike.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Mike Zieman</h4>
+                        <p class="text-muted">Management Lead, CTO</p>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/ryan.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Ryan Sears</h4>
+                        <p class="text-muted">Lead Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted"> If there's one ambition we all share, it's to leave the world in slightly better shape than we found it. We're committed to bringing you a fantastic experience and stellar solutions.<br>Not convinced? Let us <a class="page-scroll" href="#contact">prove it to you</a>!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+          <div class="row">
+          <div class="col-xs-12 text-center">
+          <h2 class="section-heading">Contact Us</h2>
+                      <h3 class="section-subheading text-muted">Let us know what we can solve for you.</h3>
+                      </div></div>
+            <div class="row">
+              <div class="col-md-4" id="contact-address">
+                <div class="row">
+                  <div class="col-xs-6 col-md-12">
+                    <img src="img/bham-seal.png" class="img-responsive"/>
+                  </div>
+                  <div class="col-xs-6 col-md-12">
+                    <h3 class="section-heading">
+                      Ignition Digital LLC<br>
+                      PO Box 59090<br>
+                      Birmingham, AL 35259
+                    </h3>
+                  </div>
+                </div>
+              </div>
+                <div class="col-md-8">
+                  <div class="row"><div class="col-xs-12"><div id="contactFormSuccess"></div></div></div>
+                  <div class="row"><div class="col-xs-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name" class="sr-only">Name</label>
+                                    <input type="text" name="Name" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="sr-only">Email</label>
+                                    <input type="email" name="Email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone" class="sr-only">Phone</label>
+                                    <input type="tel" name="Phone" class="form-control" placeholder="Your Phone" id="phone">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="message" class="sr-only">Message</label>
+                                    <textarea class="form-control" name="Message" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="referral" class="sr-only">How did you hear about us?</label>
+                                    <input type="text" name="Referral" class="form-control" placeholder="How did you hear about us?" id="referral">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                  </div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/igdit"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="http://www.facebook.com/ignitiondigital"><i class="fa fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+		              <span class="copyright">
+		                Copyright &copy;
+		                <script>document.write(new Date().getFullYear())</script>
+		                Ignition Digital LLC
+		              </span>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal Fitz -->
+    <div class="portfolio-modal modal fade" id="portfolioModalFitz" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Fitz-Thors Engineering</h2>
+                            <p class="item-intro text-muted">Responsive Website & CMS<br> <a href="http://www.fitz-thors.com" target="_blank">fitz-thors.com</a></p>
+                            <a href="http://www.fitz-thors.com" target="_blank"><img class="img-responsive center-block" src="img/portfolio/fitz-preview.jpg" alt=""></a>
+                            <p>As with many of our clients, Fitz-Thors came to us with an existing website, but one that was not very mobile-friendly. 
+                            Using the latest technologies and responsive design principles, their site now looks fantastic on any device. 
+                            And with the ease of our Content Management System (CMS), they can edit/maintain page content themselves with little more effort than it takes to write an email.</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal GettMe -->
+    <div class="portfolio-modal modal fade" id="portfolioModalGettMe" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Gett.Me</h2>
+                            <p class="item-intro text-muted">Location Shortener - Startup<br><a href="http://gett.me" target="_blank">gett.me</a></p>
+                            <a href="http://gett.me" target="_blank"><img class="img-responsive img-centered" src="img/portfolio/gettme-preview.jpg" alt=""></a>
+                            <p>Gett.Me is a startup solution for location shortening and sharing that serves as a replacement to the ever-aging mailing address. Why send a cumbersome glob of letters and numbers to your friends when you can send a clickable and readable URL like <a target="_blank" href="http://eric.gett.me/lakehouse">eric.gett.me/lakehouse</a>?</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal Catholify -->
+    <div class="portfolio-modal modal fade" id="portfolioModalCatholify" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Catholify</h2>
+                            <p class="item-intro text-muted">Social Media Mobile App<br><a target="_blank" href="http://www.catholify.com">catholify.com</a></p>
+                            <a target="_blank" href="http://www.catholify.com"><img class="img-responsive img-centered" src="img/portfolio/catholify-preview.jpg" alt=""></a>
+                            <p>Catholify is a social media app we built for the Catholic church. Parishes and dioceses can reach their parishioners in an entirely new and interactive way with events, service times, push notifications, and more. Additionally, Catholify serves as an indispensable tool for the Catholic/Christian community, placing the Bible, daily Mass readings, Rosary, and more all at your fingertips. Available now in the <a target="_blank" href="https://itunes.apple.com/us/app/catholify/id738897570">App Store</a> and coming soon to Android.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal Sarah Kroger -->
+    <div class="portfolio-modal modal fade" id="portfolioModalSarahKroger" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Sarah Kroger</h2>
+                            <p class="item-intro text-muted">Singer/Songwriter Responsive Website<br><a target="_blank" href="http://sarahkroger.com">sarahkroger.com</a></p>
+                            <a target="_blank" href="http://sarahkroger.com"><img class="img-responsive img-centered" src="img/portfolio/sarahkroger-preview.jpg" alt=""></a>
+                            <p>Sarah Kroger is a world-renowned Christian worship leader and musician. We meet the demands of her busy needs by providing a custom, responsive website, email services, newsletter subscription, blog, and more. Let us do the same for you!</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal Ntti -->
+    <div class="portfolio-modal modal fade" id="portfolioModalNtti" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>National True-Test Inc.</h2>
+                            <p class="item-intro text-muted">Industrial Mobile App</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/ntti-preview.jpg" alt="">
+                            <p>National True-Test Inc. is an HVAC company with loads of industry experience. 
+                            When Billy approached us with a stack of spreadsheets full of intricate calculations and asked if we could "turn them into an app," we happily replied "Of course!"
+                            The <i>Test & Balance</i> calculator app enables him and his employees to field test their equipment and installations with ease.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal Ols -->
+    <div class="portfolio-modal modal fade" id="portfolioModalOls" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Our Lady of Sorrows Catholic Church</h2>
+                            <p class="item-intro text-muted">Responsive Website & CMS<br><a target="_blank" href="http://www.ourladyofsorrows.com">ourladyofsorrows.com</a></p>
+                            <a target="_blank" href="http://www.ourladyofsorrows.com"><img class="img-responsive img-centered" src="img/portfolio/ols-preview.jpg" alt=""></a>
+                            <p>Our Lady of Sorrows grew tired of emailing a webmaster to make even the simplest of changes to their dated website. 
+                            We believe strongly in putting the power into <i>your</i> &nbsp;hands, which is why our Content Management System is intuitive and dead simple.
+                            Now they can easily update their information, add/edit pictures & slideshows, upload their weekly bulletins, and more.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Modal Eppp -->
+    <div class="portfolio-modal modal fade" id="portfolioModalEppp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Care Provider Portal</h2>
+                            <p class="item-intro text-muted">Timecard & Paperwork Management System</p>
+                            <img class="img-responsive img-centered big-shadow" src="img/portfolio/eppp-preview.jpg" alt="">
+                            <p>When Mr. Peebles came to us with the idea of an accessible timecard system for him and his caregivers, we were especially excited to get started. 
+                            The portal enables his caregivers to punch-in when they arrive, either from the kiosk we set up in his living room, or straight from his iPhone. 
+                            With it, Eric can easily monitor and manage his caregivers, and even process their claims, which generates all the necessary paperwork for compliance with the Ohio Home Care Program.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Modal Sae -->
+    <div class="portfolio-modal modal fade" id="portfolioModalSae" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>SAE Motorsports</h2>
+                            <p class="item-intro text-muted">Realtime scoring system, software services, & more<br><a target="_blank" href="http://bajasae.net">bajasae.net</a></p>
+                            <img class="img-responsive img-centered big-shadow" src="img/portfolio/sae-preview.jpg" alt="">
+                            <p>The Baja SAE intercollegiate design series is an international, off-road race comprised of university students who build their vehicles from the ground up every year. 
+                            With our ongoing relationship with SAE, we continue to provide new solutions for them, including a realtime scoring system used for live feedback at each of their competitions.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Modal St John -->
+    <div class="portfolio-modal modal fade" id="portfolioModalStJohn" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>St. John the Baptist Church</h2>
+                            <p class="item-intro text-muted">Campus Network Installation</p>
+                            <img class="img-responsive img-centered big-shadow" src="img/portfolio/stjohn-preview.jpg" alt="">
+                            <p>St. John's had quite a mess of routers, modems, and multiple ISPs spread across their campus. 
+                            After sitting down and ironing out their "hot spots," we were able to provide a site-wide wireless installation that provided internet to all relevant facilities from a single ISP connection.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+-->
+    <script src="js/libs.min.js"></script>
+    <script src="js/igdi.js"></script>
+
 </body>
 
 </html>
