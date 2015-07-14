@@ -915,3 +915,14 @@ img.big-shadow {
   left: -10px;
   top: 3px;
 }
+
+.appstore-btn > img {
+  width: 140px;
+  margin: 0 3px;
+}
+@media(min-width:600px) {
+    .appstore-btn > img {
+    width: 160px;
+    margin: 0 6px;
+  }
+}
