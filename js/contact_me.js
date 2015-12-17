@@ -9,10 +9,10 @@ $(function() {
           e.preventDefault();
           $form.hide();
           $('#contactFormSuccess').html('<div class="alert alert-info"><i class="fa fa-cog fa-spin"></i>Sending your inquiry...</div>');
-          setTimeout(function() { 
+          setTimeout(function() {
             $.ajax({
               type: "POST",
-              url: "https://formkeep.com/f/83fe71fb1ec5",
+              url: "https://formsand.co/f/2t3n8r",
               data: $form.serialize(),
               success: function() {
                   $('#contactFormSuccess').html("<div class='alert alert-success'><i class='fa fa-smile-o'></i>Thanks! We'll be in touch with you shortly.");
@@ -22,7 +22,7 @@ $(function() {
                   $form.show();
               }
             })
-          }, 1200);
+          }, 1000);
         },
         filter: function() {
             return $(this).is(":visible");
