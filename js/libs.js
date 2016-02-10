@@ -3578,7 +3578,7 @@ $(function() {
                 $('#contactFormSuccess').html("<div class='alert alert-success'><i class='fa fa-smile-o'></i>Thanks! We'll be in touch with you shortly.");
             },
             error: function() {
-                $('#contactFormSuccess').html("<div class='alert alert-danger'><i class='fa fa-frown-o'></i>Something went wrong. Please try again later!</div>");
+                $('#contactFormSuccess').html("<div class='alert alert-danger'><i class='fa fa-frown-o'></i>Something went wrong. Please try again later, or reach us directly at <a href='mailto:contact@igdit.com'>contact@igdit.com</a>.</div>");
                 $form.show();
             }
           })
