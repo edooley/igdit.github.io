@@ -11,13 +11,14 @@ $(function() {
           $('#contactFormSuccess').html('<div class="alert alert-info"><i class="fa fa-cog fa-spin"></i>Sending your inquiry...</div>');
           setTimeout(function() {
             $.ajax({
-              type: "POST",
-              url: "https://formsand.co/f/2t3n8r",
+              method: "POST",
+              url: "http://formspree.io/contact@igdit.com",
               data: $form.serialize(),
+              dataType: "json",
               success: function() {
                   $('#contactFormSuccess').html("<div class='alert alert-success'><i class='fa fa-smile-o'></i>Thanks! We'll be in touch with you shortly.");
               },
-              error: function() {
+              error: function(jqxhr, status, errorThrown) {
                   $('#contactFormSuccess').html("<div class='alert alert-danger'><i class='fa fa-frown-o'></i>Something went wrong. Please try again later!</div>");
                   $form.show();
               }
