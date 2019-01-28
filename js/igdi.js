@@ -26,7 +26,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $(document).ready(function() {
-    var sayings = ['A Reality', 'A Success', 'Sleek', 'A Custom App', 'A Product', 'Responsive', 'Reliable', 'A Masterpiece', 'Cutting Edge'];
+    var sayings = ['A Reality', 'A Success', 'Cross-Platform', 'Breathtaking', 'A Custom App', 'Responsive', 'A Masterpiece', 'Cutting Edge'];
     var atSaying = 0;
     var $saying = $('#header-sayings');
     function advanceSaying() {
