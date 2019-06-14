@@ -7,6 +7,10 @@ body {
     color: #777;
 }
 
+.text-white {
+    color: #fff;
+}
+
 .text-primary {
     color: #E08000;
 }
