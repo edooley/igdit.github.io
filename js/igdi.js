@@ -26,7 +26,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $(document).ready(function() {
-    var sayings = ['A Reality', 'A Success', 'Cross-Platform', 'Breathtaking', 'A Custom App', 'Responsive', 'A Masterpiece', 'Cutting Edge'];
+    var sayings = ['Reality', 'Startup', 'Custom App', 'Side Hustle', 'Full Stack Solution', 'Viral Hit', 'SaaS'];
     var atSaying = 0;
     var $saying = $('#header-sayings');
     function advanceSaying() {
@@ -44,4 +44,27 @@ $(document).ready(function() {
     }
     advanceSaying();
     setInterval(advanceSaying, 2700);
+
+    var form = document.getElementById('contactForm')
+
+    function handleSubmit(event) {
+      event.preventDefault();
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(response => {
+        if (response.ok) {
+          $('#contactFormSuccess').html("<div class='alert alert-success'><i class='fa fa-smile-o'></i>Thanks! We'll be in touch soon.");
+        } else {
+          $('#contactFormSuccess').html("<div class='alert alert-danger'><i class='fa fa-frown-o'></i>Something went wrong. Please try again later, or reach us directly at <a href='mailto:contact@igdit.com'>contact@igdit.com</a>.</div>");
+          form.show();
+        }
+      }).catch(error => {
+        $('#contactFormSuccess').html("<div class='alert alert-danger'><i class='fa fa-frown-o'></i>Something went wrong. Please try again later, or reach us directly at <a href='mailto:contact@igdit.com'>contact@igdit.com</a>.</div>");
+        form.show();
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
 });
